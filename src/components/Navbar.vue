@@ -26,6 +26,17 @@ export default {
 
             ],
 
+            dropdownItems: [
+
+            {label: "Home",
+
+            elements: ["MaxCoach Education", "Course Portal", "Distant Learning", "Multimedia Pedagogy", "Modern Schooling", "Remote Training", "Health Coaching", "Gym Coaching", "Business"],
+        
+            }
+
+
+            ]
+
         }
     }
 
@@ -35,7 +46,6 @@ export default {
 
 
 <template>
-
     <!-- Navbar  -->
 
     <nav>
@@ -59,10 +69,10 @@ export default {
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">{{ link.name }}</a>
 
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" v-for="">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Something else</a></li>
                     </ul>
 
                 </li>
@@ -82,7 +92,6 @@ export default {
         </div>
 
     </nav>
-
 </template>
 
 <style lang="scss" scoped>
@@ -108,11 +117,27 @@ export default {
 
     .nav-link {
         color: $color-secondary;
+
+        &:hover {
+            color: $color-primary;
+            text-decoration: underline;
+            text-decoration-color: $color-primary;
+        }
     }
 
     i {
         font-size: 1.2rem;
         color: #333333;
+
+        &:hover {
+            color: $color-primary;
+        }
     }
+
+    .dropdown-item:hover {
+        color: $color-primary;
+        background-color: transparent;
+    }
+
 }
 </style>

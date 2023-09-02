@@ -42,11 +42,15 @@ export default {
 
         <div id="navbar-container">
 
+            <!-- Left side navbar  -->
+
             <div class="logo-container">
 
                 <img src="../assets/img/dark-logo.png" alt="Logo Max Coach">
 
             </div>
+
+            <!-- Central side navbar  -->
 
             <div class="menulist-container d-flex gap-4">
 
@@ -64,6 +68,8 @@ export default {
                 </li>
 
             </div>
+
+            <!-- Right side navbar  -->
 
             <div class="icons-container d-flex gap-4">
 

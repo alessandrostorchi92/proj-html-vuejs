@@ -22,12 +22,10 @@ export default {
 
                 <h1 class="mb-3">Peace On Heart A <br> Wonderful Wish <br> But No Way</h1>
 
-                <p class="mb-3">Success isn't overnight.It's when everyday you get a little <br> better than the day
-                    before.It's all adds up.</p>
+                <p class="mb-3">Success isn't overnight.It's when everyday you get a little <br> better than the day before.It's all adds up.</p>
 
                 <div>
-                    <button type="button" class="py-3">Get Started for free <i
-                            class="fa-solid fa-arrow-right-long"></i></button>
+                    <button type="button" class="py-3">Get Started for free <i class="fa-solid fa-arrow-right-long"></i></button>
                 </div>
 
             </div>

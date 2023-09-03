@@ -1,13 +1,15 @@
 <script>
 
 import TheHeader from './components/TheHeader.vue'
+import TheFooter from './components/TheFooter.vue'
 
 
 export default {
 
   components: {
 
-    TheHeader
+    TheHeader,
+    TheFooter
 
   }
 }
@@ -19,10 +21,22 @@ export default {
   <header>
 
     <TheHeader></TheHeader>
-
+    
   </header>
-  
 
+  <main>
+
+
+    
+  </main>
+
+  <footer>
+
+    <TheFooter></TheFooter>
+
+  </footer>
+  
+  
 
 </template>
 

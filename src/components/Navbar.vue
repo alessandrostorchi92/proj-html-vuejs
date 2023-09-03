@@ -26,17 +26,6 @@ export default {
 
             ],
 
-            dropdownItems: [
-
-            {label: "Home",
-
-            elements: ["MaxCoach Education", "Course Portal", "Distant Learning", "Multimedia Pedagogy", "Modern Schooling", "Remote Training", "Health Coaching", "Gym Coaching", "Business"],
-        
-            }
-
-
-            ]
-
         }
     }
 
@@ -46,6 +35,7 @@ export default {
 
 
 <template>
+
     <!-- Navbar  -->
 
     <nav>
@@ -69,7 +59,7 @@ export default {
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">{{ link.name }}</a>
 
-                    <ul class="dropdown-menu" v-for="">
+                    <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else</a></li>
@@ -140,4 +130,5 @@ export default {
     }
 
 }
+
 </style>

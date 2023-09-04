@@ -2,6 +2,7 @@
 
 import TheHeader from './components/TheHeader.vue'
 import TheFooter from './components/TheFooter.vue'
+import TheMain from './components/TheMain.vue'
 
 
 export default {
@@ -9,6 +10,7 @@ export default {
   components: {
 
     TheHeader,
+    TheMain,
     TheFooter
 
   }
@@ -26,7 +28,7 @@ export default {
 
   <main>
 
-
+    <TheMain></TheMain>
     
   </main>
 
@@ -36,12 +38,9 @@ export default {
 
   </footer>
   
-  
-
 </template>
 
 <style lang="scss">
-
 
 
 </style>

@@ -152,7 +152,7 @@ export default {
             color: white;
         }
     }
-
+    
     .copyright-container {
         color: #ABABAB
     }

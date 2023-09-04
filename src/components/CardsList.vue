@@ -87,16 +87,21 @@ export default {
 
         </div>
 
-        <div class="container">
+        <div class="cards-container mb-5">
 
-            <div class="row row-cols-3 g-4">
+            <div class="container py-2">
 
-                <SingleCard v-for="(course, i) in courses" :key="`course_${i}`" :srcImg="course.img" :priceItem="course.price" :descriptionItem="course.description" :numberLessonsItem="course.numberLessons" :numberStudentsItem="course. numberStudents"></SingleCard>
+                <div class="row row-cols-3 g-5">
+
+                    <SingleCard v-for="(course, i) in courses" :key="`course_${i}`" :srcImg="course.img"
+                        :priceItem="course.price" :descriptionItem="course.description"
+                        :numberLessonsItem="course.numberLessons" :numberStudentsItem="course.numberStudents"></SingleCard>
+
+                </div>
 
             </div>
 
         </div>
-
 
     </section>
 

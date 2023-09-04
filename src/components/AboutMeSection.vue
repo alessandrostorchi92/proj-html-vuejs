@@ -51,9 +51,9 @@ export default {
 
                 <div class="col-6">
 
-                    <div class="cover-video position-relative">
+                    <div class="container-cover-video position-relative">
 
-                        <img src="../assets/img/home-movation-video-poster-670x450.jpg" alt="Cover Video">
+                        <img src="../assets/img/home-movation-video-poster-670x450.jpg" alt="Cover Video" class="cover-video">
                         <a href="#"><img src="../assets/img/icon-youtube-play.png" alt="Youtube Icon" class="youtube-icon"></a>
 
                     </div>
@@ -95,6 +95,10 @@ export default {
 
 section {
     margin-top: 4rem;
+
+    .cover-video {
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+    }
 
     .title-section {
         color: $color-primary;

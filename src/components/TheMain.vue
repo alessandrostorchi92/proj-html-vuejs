@@ -2,13 +2,15 @@
 
 import KpiSection from './KpiSection.vue'
 import AboutMeSection from './AboutMeSection.vue'
+import CardsList from './CardsList.vue'
 
 export default {
 
     components: {
 
         KpiSection,
-        AboutMeSection
+        AboutMeSection,
+        CardsList
 
     }
 
@@ -21,6 +23,7 @@ export default {
 
 <KpiSection></KpiSection>
 <AboutMeSection></AboutMeSection>
+<CardsList></CardsList>
 
 </template>
 

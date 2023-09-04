@@ -14,6 +14,13 @@ export default {
     
     },
 
+    methods: {
+
+        getImagePath: function (img) {
+            return new URL(`../assets/img/${img}`, import.meta.url).href;
+        },
+    },
+
 }
 
 
@@ -25,7 +32,7 @@ export default {
 
 <div class="card">
 
-        <img class="card-img-top" :src="srcImg" alt="Course image">
+        <img class="card-img-top" :src=" getImagePath(srcImg)" alt="Course image">
 
         <div class="card-body">
 

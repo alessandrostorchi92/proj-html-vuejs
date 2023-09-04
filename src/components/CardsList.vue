@@ -33,7 +33,7 @@ export default {
                 },
 
                 {
-                    img: "motivation-course-04-480x298.jpg32    \   1",
+                    img: "motivation-course-04-480x298.jpg",
                     price: "$20.00",
                     description: "Productivity Machine – Focus in a Distracted World",
                     numberLessons: "5",

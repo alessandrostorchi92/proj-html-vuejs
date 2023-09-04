@@ -4,18 +4,6 @@
     align-items: center;
 }
 
-@mixin cta {
-    font-size: 0.9rem;
-    width: 220px;
-    background-color: $color-primary;
-    border: none;
-    color: white;
-
-    &:hover {
-        background-color: $color-secondary;
-    }
-}
-
 @mixin absolute-center {
     position: absolute;
     top: 50%;

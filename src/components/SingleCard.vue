@@ -27,6 +27,7 @@ export default {
 
 
 <template>
+
     <div class="card-container">
 
         <div class="card h-100">
@@ -48,6 +49,7 @@ export default {
         </div>
 
     </div>
+    
 </template>
 
 

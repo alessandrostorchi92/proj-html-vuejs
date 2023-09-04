@@ -99,6 +99,10 @@ export default {
 
                 </div>
 
+                <div class="text-center mt-5">
+                    <button type="button" class="py-3">Get Started For Free <i class="fa-solid fa-arrow-right-long ms-3"></i></button>
+                </div>
+
             </div>
 
         </div>
@@ -110,6 +114,7 @@ export default {
 
 
 <style lang="scss" scoped>
+
 @use "../scss/partials/_variables.scss" as *;
 @use "../scss/partials/mixins";
 
@@ -121,4 +126,20 @@ export default {
 .green-text {
     color: $color-primary;
 }
+
+button {
+    
+    font-size: 0.9rem;
+    width: 260px;
+    background-color: $color-primary;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+    &:hover {
+        background-color: $color-secondary;
+    }
+
+}
+
 </style>

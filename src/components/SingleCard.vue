@@ -66,8 +66,8 @@ export default {
     transition: box-shadow 0.3s ease;
 
     &:hover {
-    transform: scale(1.2);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
 
 }

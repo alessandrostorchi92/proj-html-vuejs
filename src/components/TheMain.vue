@@ -1,12 +1,14 @@
 <script>
 
 import KpiSection from './KpiSection.vue'
+import AboutMeSection from './AboutMeSection.vue'
 
 export default {
 
     components: {
 
-        KpiSection
+        KpiSection,
+        AboutMeSection
 
     }
 
@@ -18,6 +20,7 @@ export default {
 <template>
 
 <KpiSection></KpiSection>
+<AboutMeSection></AboutMeSection>
 
 </template>
 

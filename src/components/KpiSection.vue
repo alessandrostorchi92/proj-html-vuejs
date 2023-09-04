@@ -24,7 +24,8 @@ export default {
 </script>
 
 <template>
-    <!-- Sezione KPIs  -->
+
+    <!-- Section KPIs  -->
 
     <section>
 
@@ -40,7 +41,6 @@ export default {
                         <div class="kpi-names text-nowrap">{{ column.name }}</div>
                     </div>
 
-
                 </div>
 
             </div>
@@ -48,6 +48,7 @@ export default {
         </div>
 
     </section>
+    
 </template>
 
 
@@ -57,6 +58,7 @@ export default {
 
 section {
     height: 300px;
+    margin-top: 4rem;
 
     .kpi-container {
         width: 100%;

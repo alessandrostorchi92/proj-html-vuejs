@@ -18,14 +18,14 @@ export default {
 
             <div class="col-6 left-side">
 
-                <div class="mb-3">I'M WINGMAN</div>
+                <div class="mb-4">I'M WINGMAN</div>
 
-                <h1 class="mb-3">Peace On Heart A <br> Wonderful Wish <br> But No Way</h1>
+                <h1 class="mb-4 fs-1">Peace On Earth A <br> Wonderful Wish <br> But No Way</h1>
 
-                <p class="mb-3">Success isn't overnight.It's when everyday you get a little <br> better than the day before.It's all adds up.</p>
+                <p class="mb-4">Success isn't overnight.It's when everyday you get a little <br> better than the day before.It's all adds up.</p>
 
                 <div>
-                    <button type="button" class="py-3">Get Started for free <i class="fa-solid fa-arrow-right-long"></i></button>
+                    <button type="button" class="py-3">Get Started For Free <i class="fa-solid fa-arrow-right-long ms-3"></i></button>
                 </div>
 
             </div>
@@ -51,6 +51,10 @@ export default {
 
 .left-side {
     padding-left: 6.4rem;
+
+    p {
+        color:#696969;
+    }
 }
 
 .right-side {
@@ -68,10 +72,11 @@ img {
 
 button {
     font-size: 0.9rem;
-    width: 220px;
+    width: 260px;
     background-color: $color-primary;
     border: none;
     color: white;
+    font-weight: bold;
 
     &:hover {
         background-color: $color-secondary;

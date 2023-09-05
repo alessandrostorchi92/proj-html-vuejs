@@ -3,6 +3,7 @@
 import KpiSection from './KpiSection.vue'
 import AboutMeSection from './AboutMeSection.vue'
 import CardsList from './CardsList.vue'
+import ClientsLogoSection from './ClientsLogoSection.vue'
 
 export default {
 
@@ -10,7 +11,8 @@ export default {
 
         KpiSection,
         AboutMeSection,
-        CardsList
+        CardsList,
+        ClientsLogoSection
 
     }
 
@@ -24,6 +26,7 @@ export default {
 <KpiSection></KpiSection>
 <AboutMeSection></AboutMeSection>
 <CardsList></CardsList>
+<ClientsLogoSection></ClientsLogoSection>
 
 </template>
 
